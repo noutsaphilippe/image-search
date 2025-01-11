@@ -133,7 +133,8 @@ form {
 }
 .box-display {
     display: grid;
-    width: 100%;
+    grid-template-rows: auto;
+    max-width: 1425px;
     height: auto;
     justify-content: center;
     align-items: center;
